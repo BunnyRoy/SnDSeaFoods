@@ -1,0 +1,117 @@
+
+		<!-- Home -->
+
+					<div class="page_nav" style="padding-top: 75px;">
+						<ul class="d-flex flex-row align-items-start justify-content-left" style="padding-left:1.5%;" >
+							<li><a href="#">Home</a></li>
+							<li><a href="#">SeaFood</a></li>
+							<li><a href="#">{{ProductData.ProductName}}</a></li>
+						</ul>
+					</div>
+			
+		
+
+		<!-- item -->
+
+		<div class="item" style="padding-top:30px;">
+			<div class="container">
+				<div class="row">
+					
+					<!-- item Image -->
+					<div class="col-lg-6">
+						<div class="item_image_slider_container">
+							<div id="slideritem" class="flexslider">
+						<img src={{ProductData.ProdImageBase64}} />	
+							</div>
+						</div>
+					</div>
+
+					<!-- item Info -->
+					<div class="col-lg-6 item_col">
+						<div class="item_info">
+							<div class="item_name">{{ProductData.ProductName}}</div>
+							<div class="item_category">In <a href="category.html">Sea Foods</a></div>
+							<div class="item_rating_container d-flex flex-row align-items-center justify-content-start">
+								<div class="rating_r rating_r_4 item_rating"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="item_reviews">4.7 out of (3514)</div>
+								<div class="item_reviews_link"><a href="#">Reviews</a></div>
+							</div>
+							<div class="item_price"><span>{{ProductData.Rate}}/{{ProductData.ProdUnit}}</span></div>
+							<div class="item_size">
+								<div class="item_size_title">Select Size</div>
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>
+										<input type="radio" id="radio_1" disabled name="item_radio" class="regular_radio radio_1">
+										<label for="radio_1">XS</label>
+									</li>
+									<li>
+										<input type="radio" id="radio_2" name="item_radio" class="regular_radio radio_2" checked>
+										<label for="radio_2">S</label>
+									</li>
+									<li>
+										<input type="radio" id="radio_3" name="item_radio" class="regular_radio radio_3">
+										<label for="radio_3">M</label>
+									</li>
+									<li>
+										<input type="radio" id="radio_4" name="item_radio" class="regular_radio radio_4">
+										<label for="radio_4">L</label>
+									</li>
+									<li>
+										<input type="radio" id="radio_5" name="item_radio" class="regular_radio radio_5">
+										<label for="radio_5">XL</label>
+									</li>
+									<li>
+										<input type="radio" id="radio_6" disabled name="item_radio" class="regular_radio radio_6">
+										<label for="radio_6">XXL</label>
+									</li>
+								</ul>
+							</div>
+							<div class="item_text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec consequat lorem. Maecenas elementum at diam consequat bibendum. Mauris iaculis fringilla ex, sit amet semper libero facilisis sit amet. Nunc ut aliquet metus. Praesent pulvinar justo sed velit tempus bibendum. Quisque dictum lorem id mi viverra, in auctor justo laoreet. Nam at massa malesuada, ullamcorper metus vel, consequat risus. Phasellus ultricies velit vel accumsan porta.</p>
+							</div>
+							<div class="item_buttons">
+								<div class="text-right d-flex flex-row align-items-start justify-content-start">
+									<div class="item_button item_fav text-center d-flex flex-column align-items-center justify-content-center">
+										<div><div><img src="images/heart_2.svg" class="svg" alt=""><div>+</div></div></div>
+									</div>
+									<div class="item_button item_cart text-center d-flex flex-column align-items-center justify-content-center">
+										<div><div><img src="images/cart.svg" class="svg" alt=""><div>+</div></div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Boxes -->
+
+		<div class="boxesItem">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="boxItem d-flex flex-row align-items-center justify-content-start">
+							<div class="mt-auto"><div class="boxItem_image"><img src="assets/images/boxes_1.png" alt=""></div></div>
+							<div class="boxItem_content">
+								<div class="boxItem_title">Size Guide</div>
+								<div class="boxItem_text">Phasellus sit amet nunc eros sed nec tellus.</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 box_col">
+						<div class="boxItem d-flex flex-row align-items-center justify-content-start">
+							<div class="mt-auto"><div class="box_image"><img src="assets/images/boxes_2.png" alt=""></div></div>
+							<div class="boxItem_content">
+								<div class="boxItem_title">Shipping</div>
+								<div class="boxItem_text">Phasellus sit amet nunc eros sed nec tellus.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	
+		
+
